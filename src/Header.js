@@ -3,10 +3,8 @@ import React from "react";
 function Header() {
     return(
         <header>
-            <p>
-                <i className="fa-solid fa-earth-americas"></i>
-                my travel journal.
-            </p>
+            <i className="fa-solid fa-earth-americas header--icon"></i>
+            <p className="header--title">my travel journal.</p>
         </header>
     );
 }

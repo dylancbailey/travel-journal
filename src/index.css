@@ -15,4 +15,72 @@ body {
 /* Container */
 .container {
   max-width: 550px;
+  margin: auto;
+}
+
+/* Header */
+header {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F55A5A;
+  color: white;
+}
+
+.header--icon {
+  font-size: 1.5rem;
+  margin-right: .5rem;
+}
+
+/* Card */
+.card {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+}
+
+.card--img {
+  width: 125px;
+  height: 175px;
+  margin-right: 1.5rem;
+  border-radius: 10px;
+}
+
+.card--location-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.card--location-dot {
+  font-size: .8rem;
+  color: #F55A5A;
+  margin-right: 5px;
+}
+
+.card--location {
+  color: #2B283A;
+  font-size: .8rem;
+  letter-spacing: 2px;
+}
+
+.card--location-link {
+  color: #918E9B;
+  letter-spacing: 0;
+  margin-left: 10px;
+}
+
+.card--location-title {
+  font-size: 1.8rem;
+  margin-bottom: .7rem;
+}
+
+.card--location-date {
+  font-weight: bold;
+  font-size: .7rem;
+  margin-bottom: 10px;
+}
+
+.card--location-desc {
+  font-size: .72rem;
 }
