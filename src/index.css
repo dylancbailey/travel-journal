@@ -45,6 +45,7 @@ header {
   height: 175px;
   margin-right: 1.5rem;
   border-radius: 10px;
+  object-fit: cover;
 }
 
 .card--location-content {
@@ -83,4 +84,10 @@ header {
 
 .card--location-desc {
   font-size: .72rem;
+}
+
+hr {
+  width: 88%;
+  margin: 0 auto;
+  border: 1px solid #F5F5F5;
 }
